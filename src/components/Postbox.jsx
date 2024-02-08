@@ -5,13 +5,15 @@ import { useState } from "react";
 import { useMutation } from "@tanstack/react-query";
 import { useQueryClient } from "@tanstack/react-query";
 import { postData } from "../services/apidata";
+import toast from "react-hot-toast";
+
 // _____________imports____________
 
 const { Title } = Typography;
 const Postbox = () => {
   const queryClient = useQueryClient();
   const [wordCount, setWordCount] = useState(300);
-  const [form, setForm] = useState({});
+  const [form, setForm] = useState([]);
 
   const currentDate = new Date().toLocaleDateString();
   const currentTime = new Date().toLocaleTimeString();
@@ -19,10 +21,13 @@ const Postbox = () => {
   const { mutate, isLoading } = useMutation({
     mutationFn: postData,
     onSuccess: () => {
-      alert("new data added");
+      toast.success("new note added succesfully!");
       queryClient.invalidateQueries({
         queryKey: ["tableData"],
       });
+    },
+    onError: (err) => {
+      toast.error(err.message);
     },
   });
 
@@ -47,9 +52,11 @@ const Postbox = () => {
     // console.log(wordCount);
   };
   const handleSubmit = () => {
-    // console.log(form);
+    if (wordCount == 300) return toast.error("can not add empty note");
     mutate(form);
-    setForm("");
+    // setForm((form.desc.value = ""));
+    setForm("")
+    console.log(form.desc);
   };
 
   return (
@@ -66,7 +73,7 @@ const Postbox = () => {
             <textarea
               className="desc"
               name="desc"
-              placeholder="please write here"
+              placeholder="start writing here..."
               value={form.desc}
               onChange={handleInput}
             ></textarea>

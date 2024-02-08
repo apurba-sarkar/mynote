@@ -1,8 +1,20 @@
-.allpost{
+.allpost {
+  display: grid;
+  grid-template-columns: repeat(4, 35rem);
+  /* grid-template-columns: repeat(auto-fill, minmax(200px, 35rem)); */
+  gap: 3rem;
+  /* align-items: center; */
+  padding: 2rem;
+}
+
+@media (width <60em) {
+  .allpost {
     display: grid;
-    grid-template-columns: repeat(4,35rem);
-    /* grid-template-columns: repeat(auto-fill, minmax(200px, 35rem)); */
+    grid-template-columns: repeat(2, 10em);
+    font-size: 1.5rem;
+
     gap: 3rem;
-    /* align-items: center; */
+
     padding: 2rem;
+  }
 }

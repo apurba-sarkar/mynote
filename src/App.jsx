@@ -5,6 +5,8 @@ import Postbox from "./components/Postbox";
 import "./App.css";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
+import { useEffect } from "react";
+import { Toaster } from "react-hot-toast";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -15,6 +17,22 @@ const queryClient = new QueryClient({
 });
 
 const App = () => {
+  useEffect(() => {
+    const handleCopyPaste = (event) => {
+      event.preventDefault();
+      alert("copy paste not allowed ");
+    };
+
+    // Add event listeners to disable copy and paste
+    document.addEventListener("copy", handleCopyPaste);
+    document.addEventListener("paste", handleCopyPaste);
+
+    // Clean up by removing event listeners when the component unmounts
+    return () => {
+      document.removeEventListener("copy", handleCopyPaste);
+      document.removeEventListener("paste", handleCopyPaste);
+    };
+  }, []);
   return (
     <div>
       <QueryClientProvider client={queryClient}>
@@ -29,6 +47,24 @@ const App = () => {
             </div>
           </div>
         </div>
+        <Toaster
+          position="top-center"
+          gutter={12}
+          containerStyle={{ margin: "8px" }}
+          toastOptions={{
+            success: {
+              duration: 3000,
+            },
+            error: {
+              duration: 5000,
+            },
+            style: {
+              fontSize: "16px",
+              maxWidth: "500px",
+              padding: "16px 24px  ",
+            },
+          }}
+        />
       </QueryClientProvider>
     </div>
   );

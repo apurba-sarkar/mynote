@@ -20,6 +20,7 @@
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border-radius: 2rem;
+  /* display: non; */
 }
 
 /* 
@@ -39,20 +40,20 @@ textarea:focus {
   /* border-color: #fc6736; */
 }
 
-.toolbox{
+.toolbox {
   display: flex;
   align-items: end;
   justify-content: end;
   flex-direction: column;
 }
-.ins{
+.ins {
   font-size: 1.5rem;
   /* color:#7af22b ; */
   font-weight: bolder;
   margin-bottom: 1rem;
   /* justify-self: right; */
 }
-.warning{
+.warning {
   color: red;
   font-weight: bold;
   font-size: 1.3rem;
@@ -61,8 +62,8 @@ textarea:focus {
 textarea {
   padding: 2rem;
   border: none;
- font-size: 2rem;
- border-radius: 2rem;
+  font-size: 2rem;
+  border-radius: 2rem;
 }
 .postbox-main-postbox {
   display: flex;
@@ -114,3 +115,16 @@ input[type="file" i] {
   letter-spacing: 3px;
   color: #fc6736;
 }
+
+@media(width <60em){ 
+  
+  .postbox-main{
+    /* width: 100%; */
+    /* left: 2rem; */
+  }
+  textarea{
+    width: 25rem;
+  }
+
+}  
+

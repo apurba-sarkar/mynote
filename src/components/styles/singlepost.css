@@ -59,7 +59,12 @@
 }
 
 .single-postend,.noteid{
-    border-radius: 1rem;
+    border-radius: 1rem; 
+    padding:  .5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+
 }
 
 .wc{
@@ -82,11 +87,8 @@
 
 .noteid{
     background-color: #f0016f;
-    padding: 0 1rem;
     color: white;
-    font-weight: 700;
-    margin-bottom: 2rem;
-
+   
 }
 
 .fav{
@@ -104,7 +106,44 @@
         height: 4rem;
     }
 
-hotpink: #f0016f
+
+
+    @media (width < 60em){
+        .singlepost{
+
+            font-size: 1rem ;
+        }
+        .singlepost-desc{
+            height: 8rem;
+        
+            /* display: flex; */
+            
+        }
+        .posttime{
+      display: none;
+  
+        }
+        .singlepost-desc{
+            font-size: 1.5rem;
+        
+        }
+
+
+       
+        .wc{
+            display: none;
+        }
+        .single-postend{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: transparent;
+            /* margin-top: 5rem; */
+        }
+        
+
+    }
+/* hotpink: #f0016f
 hotpink2 :#ee73f8
 green: #1fe95b
-green2 :#7af22b */
+green2 :#7af22b */ */
