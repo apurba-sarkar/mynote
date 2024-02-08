@@ -6,6 +6,7 @@ import { useMutation } from "@tanstack/react-query";
 import { useQueryClient } from "@tanstack/react-query";
 import { postData } from "../services/apidata";
 import toast from "react-hot-toast";
+import {PropagateLoader } from "react-spinners"
 
 // _____________imports____________
 
@@ -14,7 +15,6 @@ const Postbox = () => {
   const queryClient = useQueryClient();
   const [wordCount, setWordCount] = useState(300);
   const [form, setForm] = useState([]);
-
   const currentDate = new Date().toLocaleDateString();
   const currentTime = new Date().toLocaleTimeString();
 
@@ -26,10 +26,13 @@ const Postbox = () => {
         queryKey: ["tableData"],
       });
     },
+
     onError: (err) => {
       toast.error(err.message);
     },
+    // if (isLoading) return <PropagateLoader/>;
   });
+  if (isLoading) return <PropagateLoader color="#f0016f"/>;
 
   // console.log(currentDate, currentTime);
 

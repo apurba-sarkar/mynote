@@ -2,17 +2,17 @@ import ".//styles/singlepost.css";
 import { useMutation } from "@tanstack/react-query";
 import { deleteData } from "../services/apidata";
 import { useQueryClient } from "@tanstack/react-query";
-import toast from "react-hot-toast";
+import toast from 'react-hot-toast';
 
 const SinglePost = ({ list }) => {
   const { id: dataId, name, desc, date, time, wordCount } = list;
 
   const queryClient = useQueryClient();
-  // console.log(wordCount);
+  console.log(wordCount);
   const { isLoading, mutate } = useMutation({
     mutationFn: (id) => deleteData(id),
     onSuccess: () => {
-      toast.success(` Note no: ${dataId} deleted succesfully!`);
+      toast.success(` Note no: ${dataId} deleted succesfully!`)
       queryClient.invalidateQueries({
         queryKey: ["tableData"],
       });
