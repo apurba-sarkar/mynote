@@ -1,0 +1,8 @@
+.allpost{
+    display: grid;
+    grid-template-columns: repeat(4,35rem);
+    /* grid-template-columns: repeat(auto-fill, minmax(200px, 35rem)); */
+    gap: 3rem;
+    /* align-items: center; */
+    padding: 2rem;
+}

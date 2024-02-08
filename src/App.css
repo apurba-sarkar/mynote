@@ -1,0 +1,40 @@
+#root {
+  /* max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center; */
+  font-family: "Poppins", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  /* background-color: wheat; */
+  background-image: url("./components/bg.png");
+  background-size: cover;
+}
+.grid {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* display: inline; */
+  align-items: center;
+  /* background-color: aqua; */
+}
+
+.grid-item1 {
+  margin-bottom: 3rem;
+}
+
+.grid-item2 {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  /* background-color: yellow; */
+  justify-content: center;
+  /* align-items: center; */
+  height: 10rem;
+  gap: 2rem;
+}
