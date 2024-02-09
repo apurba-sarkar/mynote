@@ -1,18 +1,10 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-Title: Enhanced Notepad Application with Real-time Database Integration
+# Title: Enhanced Notepad Application with Real-time Database Integration
 
 Introduction:
 Our project aims to develop a feature-rich notepad application with enhanced functionality, leveraging modern technologies such as React Toolkit and Supabase. This notepad provides a seamless user experience with basic note-taking capabilities while incorporating advanced features like live reflection, word limitations, custom sliders, and mobile screen responsiveness. We have prioritized user convenience by integrating delete and stale features, ensuring efficient management of notes. By utilizing a combination of Vanilla CSS, Ant Design (AntD), React-Toast, and React Query, we've tailored a robust solution that meets the demands of modern note-taking applications.
 
-Key Features:
+## Key Features:
 
 Basic Functionality: The notepad offers essential note-taking features, allowing users to create, edit, and save notes effortlessly.
 
@@ -25,22 +17,6 @@ Custom Slider: A customizable slider allows users to adjust settings such as fon
 Delete and Stale Features: The application includes options to delete notes and manage stale content effectively. This ensures users can maintain a clutter-free workspace.
 
 Mobile Screen Responsiveness: The application is optimized for mobile devices, offering a seamless experience across various screen sizes and orientations.
-
-Technologies Used:
-
-React Toolkit: Leveraging the power of React Toolkit, we've built a scalable and maintainable application architecture, streamlining development and enhancing code quality.
-
-Supabase: Utilizing Supabase as our database solution enables real-time synchronization and secure data storage, ensuring reliability and accessibility for users.
-
-Vanilla CSS: Custom styling using Vanilla CSS ensures a sleek and consistent user interface while minimizing dependencies.
-
-Ant Design (AntD): Ant Design components enhance the visual appeal and functionality of the application, providing a rich set of UI elements for a polished user experience.
-
-React-Toast: Integration with React-Toast provides user-friendly notifications for actions such as saving notes or deleting content, enhancing the overall usability of the application.
-
-React Query: React Query optimizes data fetching and synchronization, improving performance and responsiveness for real-time updates.
-
-
 
 developer by  $${\color{blue}Apurba Sarkar}$$ 
 
