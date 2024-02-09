@@ -34,7 +34,7 @@ developer by  $${\color{blue}Apurba Sarkar}$$
 
 
 
-Screenshots: 
+## Screenshots: 
 
 ![Screenshot (22)](https://github.com/apurba-sarkar/mynote/assets/127435292/14bdf8b3-ac1f-45a4-aee4-6feedfe3f0b5)
 ![Screenshot (23)](https://github.com/apurba-sarkar/mynote/assets/127435292/ede961b7-e3eb-4369-9a5d-f7015dcc0e4e)
