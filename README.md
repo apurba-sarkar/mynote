@@ -44,7 +44,7 @@ React Query: React Query optimizes data fetching and synchronization, improving 
 
 developer by  $${\color{blue}Apurba Sarkar}$$ 
 
-![#f03c15]Technology used:
+- ![#f03c15]`Technology used:`
 <font color="green>
 react js
 supabase
