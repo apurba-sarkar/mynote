@@ -14,6 +14,18 @@ body {
   background-image: url("./components/bg.png");
   background-size: cover;
 }
+body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+}
+/* IE and Edge */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
 .grid {
   font-size: 2rem;
   display: flex;
@@ -38,3 +50,21 @@ body {
   height: 10rem;
   gap: 2rem;
 }
+
+.mainapp::-webkit-scrollbar {
+  /* width: 0.3rem; */
+  display: none;
+}
+  ::-webkit-scrollbar-track {
+    background: none;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #f0016f;
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #f0016f; /* Change thumb color on hover */
+  }
+

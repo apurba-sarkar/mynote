@@ -13,7 +13,7 @@ import {PropagateLoader } from "react-spinners"
 const { Title } = Typography;
 const Postbox = () => {
   const queryClient = useQueryClient();
-  const [wordCount, setWordCount] = useState(300);
+  const [wordCount, setWordCount] = useState(400);
   const [form, setForm] = useState([]);
   const currentDate = new Date().toLocaleDateString();
   const currentTime = new Date().toLocaleTimeString();
@@ -43,7 +43,7 @@ const Postbox = () => {
     setForm({
       ...form,
       [name]: value,
-      wordCount: 301 - wordCount,
+      wordCount: 401 - wordCount,
       date: currentDate,
       time: currentTime,
       fav: false,
@@ -51,14 +51,14 @@ const Postbox = () => {
 
     const inputValue = e.target.value;
     let count = String(inputValue).length;
-    setWordCount(300 - count);
+    setWordCount(400 - count);
     // console.log(wordCount);
   };
   const handleSubmit = () => {
-    if (wordCount == 300) return toast.error("can not add empty note");
+    if (wordCount == 400) return toast.error("can not add empty note");
     mutate(form);
     // setForm((form.desc.value = ""));
-    setForm("")
+    setForm({desc:""})
     console.log(form.desc);
   };
 
@@ -83,7 +83,7 @@ const Postbox = () => {
           </div>
           <div className="toolbox">
             <div className="ins">
-              {wordCount > 0 ? "Remaing" : "Overwrite"} {wordCount} words
+              {wordCount >  -1? "Remaing" : "Overwrite"} {wordCount} words
             </div>
             {wordCount > -1 ? (
               <Button type="primary" onClick={handleSubmit}>

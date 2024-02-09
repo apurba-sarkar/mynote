@@ -29,12 +29,15 @@ hotpink2 :#ee73f8
 green: #1fe95b
 green2 :#7af22b */
 
-textarea,
-textarea:focus {
-  font-family: Arial, sans-serif;
+textarea{
   width: 80rem;
   height: 8rem;
   resize: none;
+}
+textarea,
+textarea:focus {
+  font-family: Arial, sans-serif;
+  
   border: none;
   outline: 2px solid #a9b7a0;
   /* border-color: #fc6736; */
@@ -127,4 +130,9 @@ input[type="file" i] {
   }
 
 }  
+
+textarea::-webkit-scrollbar {
+  /* width: .3rem; */
+  display: none;
+}
 

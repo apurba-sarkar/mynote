@@ -34,7 +34,7 @@ const App = () => {
     };
   }, []);
   return (
-    <div>
+    <div className="mainapp">
       <QueryClientProvider client={queryClient}>
         <ReactQueryDevtools initialIsOpen={false} />
         <div className="grid">

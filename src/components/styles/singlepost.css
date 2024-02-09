@@ -138,9 +138,15 @@
             align-items: center;
             justify-content: center;
             background-color: transparent;
+            padding: 0;
+            padding-top: .2rem;
             /* margin-top: 5rem; */
         }
         
+        .singlepost-container{
+            padding-bottom: 0 ;
+            margin-bottom: -2rem;
+        }
 
     }
 /* hotpink: #f0016f
