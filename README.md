@@ -44,6 +44,7 @@ React Query: React Query optimizes data fetching and synchronization, improving 
 
 developer by  $${\color{blue}Apurba Sarkar}$$ 
 
+$${\color{green} 
 Technology used:
 <font color="green>
 react js
@@ -53,8 +54,8 @@ ant design
 react-spinner
 react-hot-toast
 react-query
+}$$
 
-</font>
 
 
 
