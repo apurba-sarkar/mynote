@@ -53,5 +53,4 @@ Screenshots:
 ![Screenshot (25)](https://github.com/apurba-sarkar/mynote/assets/127435292/23ce713c-3c9f-4bac-b900-4ce55999c243)
 ![Screenshot (26)](https://github.com/apurba-sarkar/mynote/assets/127435292/04d28ed4-1dea-4b5b-810f-35c24ec1325d)
 ![Screenshot (28)](https://github.com/apurba-sarkar/mynote/assets/127435292/dfc097ae-6980-482f-86fa-abf1c8b76013)
-![Screenshot (29)](https://github.com/apurba-sarkar/mynote/assets/127435292/f832f7e0-341f-4577-bd02-26e326a973e3)
-![Screenshot (29)](https://github.com/apurba-sarkar/mynote/assets/127435292/9663de98-a02e-4b10-b56b-2e83efa806b6)
+![Screenshot (30)](https://github.com/apurba-sarkar/mynote/assets/127435292/d1311d00-7694-4e8e-8739-b0d5683fb8a9)
