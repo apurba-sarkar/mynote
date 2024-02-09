@@ -42,7 +42,7 @@ React Query: React Query optimizes data fetching and synchronization, improving 
 
 
 
-developer by [This text is blue] <code style="color: Blue">  $${\color{blue}Apurba Sarkar}$$ </code>
+developer by  $${\color{blue}Apurba Sarkar}$$ 
 
 Technology used:
 <font color="green>
