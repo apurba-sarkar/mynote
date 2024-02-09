@@ -1,4 +1,4 @@
-# React + Vite
+![Screenshot (29)](https://github.com/apurba-sarkar/mynote/assets/127435292/9663de98-a02e-4b10-b56b-2e83efa806b6)# React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -44,3 +44,6 @@ developer by  Apurba Sarkar
 
 Conclusion:
 Our enhanced notepad application offers a comprehensive solution for users seeking a modern and efficient note-taking experience. By combining essential features with advanced functionality and leveraging technologies such as React Toolkit and Supabase, we've created a versatile platform that meets the demands of today's users. Whether you're jotting down quick thoughts or organizing extensive notes, our application provides the tools you need for seamless productivity.
+
+![Screenshot 2024-02-08 134628](https://github.com/apurba-sarkar/mynote/assets/127435292/1d94128c-4ed4-4e45-a546-c5e2e448e442)
+
