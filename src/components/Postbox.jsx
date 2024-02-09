@@ -29,6 +29,7 @@ const Postbox = () => {
 
     onError: (err) => {
       toast.error(err.message);
+      // console.log(error)
     },
     // if (isLoading) return <PropagateLoader/>;
   });
@@ -59,7 +60,7 @@ const Postbox = () => {
     mutate(form);
     // setForm((form.desc.value = ""));
     setForm({desc:""})
-    console.log(form.desc);
+    // console.log(form.desc);
   };
 
   return (

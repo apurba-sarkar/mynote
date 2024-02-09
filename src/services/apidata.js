@@ -17,7 +17,7 @@ export async function postData(newData) {
   const { data, error } = await supabase.from("table1").insert([newData]);
 
   if (error) {
-    console.error(error);
+    console.error(error.message);
     throw new Error("cabin could not be created");
   }
   return data;
