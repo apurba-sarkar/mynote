@@ -40,7 +40,7 @@ React-Toast: Integration with React-Toast provides user-friendly notifications f
 
 React Query: React Query optimizes data fetching and synchronization, improving performance and responsiveness for real-time updates.
 
-developer by [This text is blue] <span style="color:blue">  Apurba Sarkar </span>
+developer by [This text is blue] <code style="color:blue">  Apurba Sarkar </code>
 
 Technology used:
 <font color="green>
