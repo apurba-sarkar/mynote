@@ -1,5 +1,5 @@
 
-# Title: Enhanced Notepad Application with Real-time Database Integration
+# Title: Enhanced Notepad Application with Real-time Database Integration (App name: My Note)
 
 Introduction:
 Our project aims to develop a feature-rich notepad application with enhanced functionality, leveraging modern technologies such as React Toolkit and Supabase. This notepad provides a seamless user experience with basic note-taking capabilities while incorporating advanced features like live reflection, word limitations, custom sliders, and mobile screen responsiveness. We have prioritized user convenience by integrating delete and stale features, ensuring efficient management of notes. By utilizing a combination of Vanilla CSS, Ant Design (AntD), React-Toast, and React Query, we've tailored a robust solution that meets the demands of modern note-taking applications.
