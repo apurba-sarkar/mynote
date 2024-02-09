@@ -44,14 +44,14 @@ React Query: React Query optimizes data fetching and synchronization, improving 
 
 developer by  $${\color{blue}Apurba Sarkar}$$ 
 
-##Technology used:
--react js
--supabase
--tanstack query
--ant design
--react-spinner
--react-hot-toast
--react-query
+## Technology used:
+- react js
+- supabase
+- tanstack query
+- ant design
+- react-spinner
+- react-hot-toast
+- react-query
 
 
 
