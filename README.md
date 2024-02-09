@@ -45,5 +45,13 @@ developer by  Apurba Sarkar
 Conclusion:
 Our enhanced notepad application offers a comprehensive solution for users seeking a modern and efficient note-taking experience. By combining essential features with advanced functionality and leveraging technologies such as React Toolkit and Supabase, we've created a versatile platform that meets the demands of today's users. Whether you're jotting down quick thoughts or organizing extensive notes, our application provides the tools you need for seamless productivity.
 
-![Screenshot 2024-02-08 134628](https://github.com/apurba-sarkar/mynote/assets/127435292/1d94128c-4ed4-4e45-a546-c5e2e448e442)
+Screenshots: 
 
+![Screenshot 2024-02-08 134628](https://github.com/apurba-sarkar/mynote/assets/127435292/1d94128c-4ed4-4e45-a546-c5e2e448e442)
+![Screenshot (22)](https://github.com/apurba-sarkar/mynote/assets/127435292/14bdf8b3-ac1f-45a4-aee4-6feedfe3f0b5)
+![Screenshot (23)](https://github.com/apurba-sarkar/mynote/assets/127435292/ede961b7-e3eb-4369-9a5d-f7015dcc0e4e)
+![Screenshot (24)](https://github.com/apurba-sarkar/mynote/assets/127435292/3635de05-158d-4ad2-8a07-630dbfd54446)
+![Screenshot (25)](https://github.com/apurba-sarkar/mynote/assets/127435292/23ce713c-3c9f-4bac-b900-4ce55999c243)
+![Screenshot (26)](https://github.com/apurba-sarkar/mynote/assets/127435292/04d28ed4-1dea-4b5b-810f-35c24ec1325d)
+![Screenshot (28)](https://github.com/apurba-sarkar/mynote/assets/127435292/dfc097ae-6980-482f-86fa-abf1c8b76013)
+![Screenshot (29)](https://github.com/apurba-sarkar/mynote/assets/127435292/f832f7e0-341f-4577-bd02-26e326a973e3)
