@@ -47,7 +47,6 @@ Our enhanced notepad application offers a comprehensive solution for users seeki
 
 Screenshots: 
 
-![Screenshot 2024-02-08 134628](https://github.com/apurba-sarkar/mynote/assets/127435292/1d94128c-4ed4-4e45-a546-c5e2e448e442)
 ![Screenshot (22)](https://github.com/apurba-sarkar/mynote/assets/127435292/14bdf8b3-ac1f-45a4-aee4-6feedfe3f0b5)
 ![Screenshot (23)](https://github.com/apurba-sarkar/mynote/assets/127435292/ede961b7-e3eb-4369-9a5d-f7015dcc0e4e)
 ![Screenshot (24)](https://github.com/apurba-sarkar/mynote/assets/127435292/3635de05-158d-4ad2-8a07-630dbfd54446)
