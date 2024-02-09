@@ -40,5 +40,7 @@ React-Toast: Integration with React-Toast provides user-friendly notifications f
 
 React Query: React Query optimizes data fetching and synchronization, improving performance and responsiveness for real-time updates.
 
+developer by  Apurba Sarkar
+
 Conclusion:
 Our enhanced notepad application offers a comprehensive solution for users seeking a modern and efficient note-taking experience. By combining essential features with advanced functionality and leveraging technologies such as React Toolkit and Supabase, we've created a versatile platform that meets the demands of today's users. Whether you're jotting down quick thoughts or organizing extensive notes, our application provides the tools you need for seamless productivity.
