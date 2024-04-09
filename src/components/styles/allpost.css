@@ -7,8 +7,9 @@
   padding: 2rem;
 }
 
-@media (width <60em) {
+@media (width <100em) {
   .allpost {
+    /* font-size; */
     display: grid;
     grid-template-columns: repeat(2, 10em);
     font-size: 1.5rem;
@@ -16,5 +17,8 @@
     gap: 3rem;
 
     padding: 2rem;
+  }
+  html{
+    font-size: 60%;
   }
 }
